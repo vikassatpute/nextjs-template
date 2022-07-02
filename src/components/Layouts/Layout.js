@@ -1,6 +1,6 @@
-import Footer from 'components/Footer';
-import Header from 'components/Header';
-import Head from 'next/head';
+import Footer from 'components/Footer'
+import Header from 'components/Header'
+import Head from 'next/head'
 
 export default function Layout({ children }) {
   return (
@@ -12,5 +12,5 @@ export default function Layout({ children }) {
       <main>{children}</main>
       <Footer />
     </>
-  );
+  )
 }

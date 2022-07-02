@@ -1,4 +1,4 @@
-import { Menu } from '@headlessui/react';
+import { Menu } from '@headlessui/react'
 
 const Dropdown = () => {
   return (
@@ -30,7 +30,7 @@ const Dropdown = () => {
         </Menu.Item>
       </Menu.Items>
     </Menu>
-  );
-};
+  )
+}
 
-export default Dropdown;
+export default Dropdown
