@@ -1,4 +1,4 @@
-import { Menu } from "@headlessui/react";
+import { Menu } from '@headlessui/react';
 
 const Dropdown = () => {
   return (
@@ -8,8 +8,9 @@ const Dropdown = () => {
         <Menu.Item>
           {({ active }) => (
             <a
-              className={`${active && "bg-blue-500"}`}
-              href='/account-settings'>
+              className={`${active && 'bg-blue-500'}`}
+              href="/account-settings"
+            >
               Account settings
             </a>
           )}
@@ -17,14 +18,15 @@ const Dropdown = () => {
         <Menu.Item>
           {({ active }) => (
             <a
-              className={`${active && "bg-blue-500"}`}
-              href='/account-settings'>
+              className={`${active && 'bg-blue-500'}`}
+              href="/account-settings"
+            >
               Documentation
             </a>
           )}
         </Menu.Item>
         <Menu.Item disabled>
-          <span className='opacity-75'>Invite a friend (coming soon!)</span>
+          <span className="opacity-75">Invite a friend (coming soon!)</span>
         </Menu.Item>
       </Menu.Items>
     </Menu>
